@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Engineering College — Student Life</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Engineering College</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navCollapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+          <li class="nav-item"><a class="nav-link active" href="student-life.html">Student Life</a></li>
+          <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-5 mt-5">
+    <section class="py-5">
+      <div class="container">
+        <h1 class="h3 mb-3">Student Life & News</h1>
+
+        <div class="row g-4">
+          <div class="col-12 col-md-8">
+            <article>
+              <h2 class="h5">Campus Highlights</h2>
+              <p>Photos and snapshots from clubs, labs, and events.</p>
+
+              <div class="row g-3">
+                <div class="col-6 col-md-4">
+                  <img src="images/placeholder1.jpg" class="img-fluid rounded" alt="robotics club demo">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="images/placeholder2.jpg" class="img-fluid rounded" alt="students in lab">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="images/placeholder3.jpg" class="img-fluid rounded" alt="hackathon event">
+                </div>
+              </div>
+            </article>
+
+            <hr class="my-4">
+
+            <article>
+              <h2 class="h5">Announcements</h2>
+              <ul class="list-unstyled">
+                <li class="mb-2"><strong>Oct 1:</strong> Career fair — employers from industry will be attending.</li>
+                <li class="mb-2"><strong>Sept 20:</strong> New robotics lab opening — tours available.</li>
+              </ul>
+            </article>
+          </div>
+
+          <aside class="col-12 col-md-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h3 class="h6">Clubs & Societies</h3>
+                <p class="small mb-0">Robotics Club, Coding Society, Renewable Energy Group, and more.</p>
+              </div>
+            </div>
+
+            <!-- FAQ: interactive accordion -->
+            <div class="card">
+              <div class="card-body">
+                <h3 class="h6">FAQ</h3>
+                <div class="accordion" id="faqAccordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq1Header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                        Are scholarships available?
+                      </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1Header" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">Yes — merit and need-based scholarships are awarded. Contact financial aid.</div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq2Header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                        What housing options exist?
+                      </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2Header" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">We partner with local residences; see Student Services for details.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </aside>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 bg-dark text-light">
+    <div class="container">
+      <small>© <span id="year4"></span> Engineering College</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
